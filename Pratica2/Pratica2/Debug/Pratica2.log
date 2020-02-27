@@ -1,0 +1,24 @@
+﻿  Pratica2.cpp
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(17,32): error C2512: 'veiculo': nenhum construtor padrão apropriado disponível
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(5,7): message : consulte a declaração de 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(18,7): error C2248: 'veiculo::nome': não é possível acessar private membro declarado na classe 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(6): message : consulte a declaração de 'veiculo::nome'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(5): message : consulte a declaração de 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(25,30): error C2512: 'veiculo': nenhum construtor padrão apropriado disponível
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(5,7): message : consulte a declaração de 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(26,7): error C2248: 'veiculo::nome': não é possível acessar private membro declarado na classe 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(6): message : consulte a declaração de 'veiculo::nome'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(5): message : consulte a declaração de 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(33,27): error C2512: 'veiculo': nenhum construtor padrão apropriado disponível
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(5,7): message : consulte a declaração de 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(34,7): error C2248: 'veiculo::nome': não é possível acessar private membro declarado na classe 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(6): message : consulte a declaração de 'veiculo::nome'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(5): message : consulte a declaração de 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\Pratica2.cpp(8,13): error C2512: 'veiculo': nenhum construtor padrão apropriado disponível
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(5,7): message : consulte a declaração de 'veiculo'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\Pratica2.cpp(10,15): error C2512: 'terrestre': nenhum construtor padrão apropriado disponível
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(15,7): message : consulte a declaração de 'terrestre'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\Pratica2.cpp(12,14): error C2512: 'aquatico': nenhum construtor padrão apropriado disponível
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(23,7): message : consulte a declaração de 'aquatico'
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\Pratica2.cpp(14,11): error C2512: 'aereo': nenhum construtor padrão apropriado disponível
+C:\Users\CP - IFPE\source\repos\Pratica2\Pratica2\veiculo.h(31,7): message : consulte a declaração de 'aereo'
