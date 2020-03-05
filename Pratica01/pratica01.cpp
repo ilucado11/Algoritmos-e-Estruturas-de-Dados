@@ -9,9 +9,7 @@
 #include "veiculo.h"
 using namespace std;
 
-
-
-int main(){
+int main() {
 
 //	Veiculo veiculo1("v1");
 //	{
@@ -23,22 +21,21 @@ int main(){
 
 	veiculo * obj1 = new veiculo("v1");
 	obj1->setNumRodas(4);
-	obj1->getNumRodas();
-			delete obj1;
+	cout << obj1->getNumRodas() <<endl;
+	delete obj1;
 	veiculo * obj2 = new veiculo("v2");
-	obj2->setNumRodas(4);
-	obj1->getNumRodas();
-		delete obj2;
+	obj2->setNumRodas(2);
+	cout << obj2->getNumRodas() << endl;
+	delete obj2;
 	veiculo * obj3 = new veiculo("v3");
-	obj3->setNumRodas(4);
-	obj1->getNumRodas();
-		delete obj3;
+	obj3->setNumRodas(6);
+	obj3->setNumRodas(6);
+
+	cout << obj3->getNumRodas() << endl;
+	delete obj3;
 
 	std::cout << "Primeira aplicacao c++" << endl;
 
 	return 0;
 }
-
-
-
 

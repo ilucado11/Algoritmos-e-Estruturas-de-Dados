@@ -18,12 +18,12 @@ class Roda{
 
 		//Construtor
 		Roda(){
-			cout << "Roda foi construído\n";
+			cout << "Roda foi construida\n";
 		}
 
 		//Destrutor
 		~Roda(){
-			cout << "Roda destruída\n";
+			cout << "Roda destruida\n";
 		}
 };
 
@@ -33,7 +33,7 @@ class veiculo{
 
 	 string nome;
 	 Roda * rodas;
-	 //int num_rodas;
+	 int num_rodas;
 
 	 public:
 
@@ -41,7 +41,7 @@ class veiculo{
 	 	 veiculo(const char * param){
 	 		 this->nome = string(param);
 	 		 rodas=NULL;
-	 		 //num_rodas=0;
+	 		 num_rodas=0;
 	 		 cout << "Um novo veiculo foi criado, nome: " << this->nome << "\n";
 	 	 }
 

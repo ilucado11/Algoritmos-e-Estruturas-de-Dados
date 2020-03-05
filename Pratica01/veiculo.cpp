@@ -9,12 +9,12 @@
 
 
  int veiculo::getNumRodas(){
-	 return 0;
-
+//	 cout << num_rodas << " rodas.\n";
+	 return this->num_rodas;
  };
 
   void veiculo::setNumRodas(int ale){
+	 delete []rodas;
 	 rodas = new Roda[ale]();
-	 cout << "Rodas construídas\n";
+	 num_rodas = ale;
  };
-
