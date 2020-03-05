@@ -1,6 +1,5 @@
 /*
  * veiculo.cpp
- *
  *  Created on: 29 de fev de 2020
  *      Author: Claudio
  */
@@ -21,6 +20,7 @@ int Terrestre::getCapacidadeMax(){
 };
 
 void Terrestre::mover(){
+
 	cout << "Veiculo terrestre " << nome << " moveu.\n";
 };
 
@@ -36,7 +36,7 @@ int Aquatico::getCargaMax(){
 };
 
 void Aquatico::mover(){
-	cout << "Veiculo aquatico " <<  << " moveu.\n";
+	cout << "Veiculo aquatico " << nome << " moveu.\n";
 };
 
 

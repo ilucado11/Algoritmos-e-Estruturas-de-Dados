@@ -1,6 +1,5 @@
 /*
  * veiculo.h
- *
  *  Created on: 29 de fev de 2020
  *      Author: Claudio
  */
@@ -13,6 +12,7 @@ using namespace std;
 
 //*********************************************************************
 class Veiculo{
+protected:
 	string nome;
 
 public:
@@ -21,7 +21,11 @@ public:
 		cout << nove << " foi criado.\n";
 	}
 
-	void mover();
+	virtual void mover() = 0;
+
+	virtual ~Veiculo() {
+		cout << nome << " foi destruido.\n";
+	};
 };
 
 
@@ -40,6 +44,10 @@ public:
 	void setCapacidadeMax(int ale);
 
 	int getCapacidadeMax();
+
+	virtual ~Terrestre() {
+			cout << nome << " foi destruido.\n";
+		};
 };
 
 
@@ -60,6 +68,10 @@ public:
 
 	int getCargaMax();
 
+	virtual ~Aquatico() {
+			cout << nome << " foi destruido.\n";
+		};
+
 };
 
 
@@ -78,6 +90,10 @@ public:
 	void setVelocidadeMax(float ale);
 
 	int getVelocidadeMax();
+
+	virtual ~Aereo() {
+			cout << nome << " foi destruido.\n";
+		};
 };
 
 

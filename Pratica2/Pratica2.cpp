@@ -1,6 +1,4 @@
-/*
- * Pratica2.cpp
- *
+/*	Pratica2.cpp
  *  Created on: 29 de fev de 2020
  *      Author: Claudio
  */
@@ -22,14 +20,17 @@ int main(){
 	Veiculo * terr = new Terrestre("VT1");
 	((Terrestre *)terr)->setCapacidadeMax(45);
 	terr->mover();
+	delete terr;
 
 	Veiculo * aqua = new Aquatico("VQ1");
 	((Aquatico *)aqua)->setCargaMax(12.5);
 	aqua->mover();
+	delete aqua;
 
 	Veiculo * aereo = new Aereo("VA1");
 	((Aereo *)aereo)->setVelocidadeMax(1040.5);
 	aereo->mover();
+	delete aereo;
 
 	return 0;
 }

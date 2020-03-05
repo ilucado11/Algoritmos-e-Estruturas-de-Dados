@@ -23,10 +23,12 @@ int main() {
 	obj1->setNumRodas(4);
 	cout << obj1->getNumRodas() <<endl;
 	delete obj1;
+
 	veiculo * obj2 = new veiculo("v2");
 	obj2->setNumRodas(2);
 	cout << obj2->getNumRodas() << endl;
 	delete obj2;
+
 	veiculo * obj3 = new veiculo("v3");
 	obj3->setNumRodas(6);
 	obj3->setNumRodas(6);
