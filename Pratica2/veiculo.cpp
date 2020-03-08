@@ -6,9 +6,9 @@
 
 #include "veiculo.h"
 
-void Veiculo::mover(){
-	cout << "Veiculo " << this->nome << " moveu.\n";
-};
+//void Veiculo::mover(){
+//	cout << "Veiculo " << this->nome << " moveu.\n";
+//};
 
 //get e set de terrestre*********************************************
 void Terrestre::setCapacidadeMax(int ale){

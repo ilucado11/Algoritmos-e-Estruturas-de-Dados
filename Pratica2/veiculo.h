@@ -30,8 +30,13 @@ public:
 
 
 //*****************************************************************
-class Terrestre : public Veiculo{
+class Terrestre : public virtual Veiculo{
 	int cap_pass = 5; //numero max de passageiros
+
+protected:
+	Terrestre() : Veiculo(nove){
+
+	}
 
 public:
 	Terrestre (const char * nove) : Veiculo (nove){
@@ -53,8 +58,13 @@ public:
 
 
 //*****************************************************************
-class Aquatico : public Veiculo{
+class Aquatico : public virtual Veiculo{
 	float carga_max = 10; //em toneladas
+
+protected:
+	Aquatico () : Veiculo(nove){
+
+	}
 
 public:
 	Aquatico (const char * nove) : Veiculo (nove){
@@ -96,5 +106,14 @@ public:
 		};
 };
 
+//***************************************************************************
+class Anfibio : public Terrestre, public Aquatico {
 
+	Anfibio (const char * nome) : Veiculo(nome), Terrestre(), Aquatico() {
+
+	}
+
+	Terrestre::mover();
+	Aquatico::mover();
+};
 #endif /* VEICULO_H_ */

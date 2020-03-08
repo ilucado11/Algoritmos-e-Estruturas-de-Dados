@@ -32,5 +32,8 @@ int main(){
 	aereo->mover();
 	delete aereo;
 
+	Veiculo * anfi = new Anfibio("VAnf1");
+	anfi->mover();
+
 	return 0;
 }
